@@ -3,15 +3,16 @@
 /**
  * print_most_numbers - num except 2 and 4
  * return: void
- */  
+ */
 void print_most_numbers(void)
 {
-	char c;
-	
-	for (c = '0'; c <= '9'; c++)
+	int num;
+
+	for (num = 0; num <= 9; num++)
 	{
-	if (!(c == '2' || c == '4')
-	_putchar(c);
+		if (num == 2 || num == 4)
+			continue;
+		putchar(num + 48);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
