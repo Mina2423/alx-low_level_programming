@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * free_grid - freethe grid
- * @grid; grid of memories
+ * free_grid - free the grid
+ * @grid: grid of memories
  * @height: int
  * Return: void
  */
